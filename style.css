@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: cursive;
+}
+
+#play_area {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://th.bing.com/th/id/R.9bc92a8eacb3b495ed1d9077664a3060?rik=hq01vBttqkCCcg&pid=ImgRaw&r=0");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instructions {
+    position: relative;
+    color: white;
+    left: 4rem;
+    top: 8px;
+}
+
+.start_button {
+    width: 10rem;
+    position: relative;
+    color: white;
+    top: 9rem;
+    left: calc(50% - 5rem);
+    cursor: pointer;
+}
+
+.player_shooter {
+  position: relative;
+  height: 60px;
+  width: 150px;
+  left: 50px;
+  top: 350px;
+}
+
+.laser {
+  position: relative;
+  width: 40px;
+  height: 20px;
+}
+
+.alien {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.alien_transition /*pode nao ter um underline*/ {
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.dead_alien /*pode n ter um underline*/ {
+  width: 60px;
+  height: 70px;
+  position: relative;
+  opacity: 0;
+}
